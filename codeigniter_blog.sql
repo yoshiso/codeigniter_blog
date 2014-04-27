@@ -30,3 +30,22 @@ create table `comment` (
     article_id int(11) not null,
     content varchar(255) not null;
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+create database igniter_user;
+grant all on igniter_user.* to test@locahost;
+
+create table user (
+    id int(11) not null primary key auto_increment,
+   name varchar(255) not null,
+   email varchar(255) not null);
+
+
+create database igniter_user_test;
+grant all on igniter_user_test.* to test@locahost;
+
+create table user (
+    id int(11) not null primary key auto_increment,
+   name varchar(255) not null,
+   email varchar(255) not null);
+);

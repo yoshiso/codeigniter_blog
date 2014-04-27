@@ -53,7 +53,7 @@ class ArticleControllerTest extends CIUnit_TestCase
         // Check returns correct response
         $this->assertContains('Success', $out);
 
-        // Check collectly saved to database
+        // Check collectly saved to database is collect
         $this->CI->load->model('article_model');
         $created = $this->CI->article_model->get(4);
         $this->assertSame('posted', $created->title);

@@ -65,5 +65,22 @@ $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
 
+$db['user']['hostname'] = 'localhost';
+$db['user']['username'] = 'test';
+$db['user']['password'] = 'password';
+$db['user']['database'] = 'igniter_user_test';
+$db['user']['dbdriver'] = 'mysql';
+$db['user']['dbprefix'] = '';
+$db['user']['pconnect'] = TRUE;
+$db['user']['db_debug'] = TRUE;
+$db['user']['cache_on'] = FALSE;
+$db['user']['cachedir'] = '';
+$db['user']['char_set'] = 'utf8';
+$db['user']['dbcollat'] = 'utf8_general_ci';
+$db['user']['swap_pre'] = '';
+$db['user']['autoinit'] = TRUE;
+$db['user']['stricton'] = FALSE;
+
+
 /* End of file database.php */
 /* Location: ./application/config/database.php */
